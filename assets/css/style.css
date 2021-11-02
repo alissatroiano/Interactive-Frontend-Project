@@ -35,28 +35,28 @@
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #83a8ac;
 }
 
 .ui-menu-color-resume {
-    background-color: #9b59b6;
+    background-color: #59adb6;
 }
 
 .ui-menu-color-contact {
-    background-color: #3498db;
+    background-color: #83a8ac;
 }
 
 .ui-menu-color-download {
-    background-color: #d9a81d;
+    background-color: #59adb6;
 }
 
 
 .ui-menu-color-github {
-    background-color: #1c4a6c;
+    background-color: #1d6168;
 }
 
 .ui-menu-color-interests {
-    background-color: #e74c3c;
+    background-color: #59adb6;
 }
 
 body {
@@ -115,7 +115,7 @@ header {
 }
 
 .logo {
-    background: url("../images/at.png") no-repeat center center;
+    background: url("https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGVhZHNob3R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60") no-repeat center center;
     max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -199,8 +199,9 @@ header {
 footer {
     background-color: #525252;
     color: #fafafa;
-    min-height: 120px;
+    min-height: 100px;
     margin: 0;
+    overflow: hidden;
 }
 
 footer .cv-pdf i {
