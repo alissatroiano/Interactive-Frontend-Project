@@ -119,12 +119,12 @@ header {
     max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-    background-color: #f4f4f4;
+    background-color: #fff;
     overflow: hidden;
 }
 
@@ -392,6 +392,10 @@ div#map {
 }
 
 /*--------------------------------------------Media Queries*/
+
+@media only screen and (min-width: 768px) {
+
+}
 
 @media(min-width: 992px) {
     .section-column {
